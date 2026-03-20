@@ -1,4 +1,6 @@
 package com.myapp.Week1.payment;
 
-public class IPaymentMethod {
+public interface IPaymentMethod {
+    void pay(double amount);
+    String getMethodName();
 }

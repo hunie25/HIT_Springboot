@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 
-public class CardPayment implements IPaymentMethod {
+public class CashPayment implements IPaymentMethod {
     public void pay(double amount) {
         System.out.println("Thanh toán tiền mặt: " + amount);
     }
